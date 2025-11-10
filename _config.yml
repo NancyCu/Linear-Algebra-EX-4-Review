@@ -1,0 +1,9 @@
+title: "Linear Algebra Exam 4 Review"
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  parse_block_html: true
+
+# If you use a baseurl for project pages, uncomment and set it:
+# baseurl: "/Linear-Algebra-EX-4-Review"
