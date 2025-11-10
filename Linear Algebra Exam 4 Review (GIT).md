@@ -177,7 +177,7 @@ This example demonstrates the step-by-step derivation of the characteristic poly
 Putting it all together:
 
 \[
-6 - 11 \lambda + 6 \lambda^2 - \lambda^3 - \color{red}{(2-\lambda - 1)} - \color{red}{(1 - \lambda)} = 0,
+6 - 11 \lambda + 6 \lambda^2 - \lambda^3 - {\color{red}{(2-\lambda - 1)}} - {\color{red}{(1 - \lambda)}} = 0,
 \]
 
 <span style="color:#228B22; font-weight:bold;">💡 Explanation:</span>  
@@ -186,19 +186,19 @@ This equation comes from expanding the determinant of \((A - \lambda I)\), which
 Simplify the subtracted terms:
 
 \[
-\color{red}{(2-\lambda - 1)} = \color{green}{1 - \lambda}, \quad \text{so subtracting gives } \color{red}{- (1 - \lambda)} = \color{green}{-1 + \lambda}.
+{\color{red}{(2-\lambda - 1)}} = {\color{green}{1 - \lambda}}, \quad \text{so subtracting gives } {\color{red}{- (1 - \lambda)}} = {\color{green}{-1 + \lambda}}.
 \]
 
 Similarly,
 
 \[
-\color{red}{- (1 - \lambda)} = \color{green}{-1 + \lambda}.
+{\color{red}{- (1 - \lambda)}} = {\color{green}{-1 + \lambda}}.
 \]
 
 So total subtraction is:
 
 \[
-\color{green}{- (1 - \lambda) - (1 - \lambda) = -2 + 2 \lambda.}
+{\color{green}{- (1 - \lambda) - (1 - \lambda) = -2 + 2 \lambda.}}
 \]
 
 ---
@@ -206,7 +206,7 @@ So total subtraction is:
 Therefore, characteristic polynomial:
 
 \[
-6 - 11 \lambda + 6 \lambda^2 - \lambda^3 \color{green}{- 2 + 2 \lambda} = 0,
+6 - 11 \lambda + 6 \lambda^2 - \lambda^3 {\color{green}{- 2 + 2 \lambda}} = 0,
 \]
 
 which simplifies to:
@@ -216,19 +216,19 @@ which simplifies to:
 \]
 
 \[
-\color{blue}{4 - 9 \lambda + 6 \lambda^2 - \lambda^3 = 0.}
+{\color{blue}{4 - 9 \lambda + 6 \lambda^2 - \lambda^3 = 0.}}
 \]
 
 Rewrite:
 
 \[
-\color{blue}{-\lambda^3 + 6 \lambda^2 - 9 \lambda + 4 = 0.}
+{\color{blue}{-\lambda^3 + 6 \lambda^2 - 9 \lambda + 4 = 0.}}
 \]
 
 Multiply both sides by \(-1\):
 
 \[
-\color{blue}{\lambda^3 - 6 \lambda^2 + 9 \lambda - 4 = 0.}
+{\color{blue}{\lambda^3 - 6 \lambda^2 + 9 \lambda - 4 = 0.}}
 \]
 
 <span style="color:#228B22; font-weight:bold;">💡 Explanation:</span>  
